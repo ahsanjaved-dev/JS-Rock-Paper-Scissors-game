@@ -1,0 +1,229 @@
+@media only screen and (max-width:400px){
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: hsla(0, 0%, 85%, 0.9);
+    }
+    
+    #maincontainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 100vh;
+        width: 100%;
+        border: 2px solid hsla(0, 0%, 0%, 0.7);
+        border-radius: 5px;
+        background-color: white;
+        box-shadow: 0px 0px 3px black;
+    }
+    
+    h1{
+        font-size: 26px;
+    }
+    
+    .choices{
+        margin-bottom: 40px;
+    }
+    
+    .choices button{
+        font-size: 35px;
+        width: 70px;
+        height: 70px;
+        margin: 0px 8px;
+        cursor: pointer;
+        border: none;
+        border-radius: 40px;
+        background-color: lightblue; 
+    }
+    
+    .choices button:hover{
+        background-color: hsl(195, 53%, 69%);
+        transition: 0.5s ease;
+    }
+    
+    .choices button:active{
+        background-color: hsl(195, 53%, 59%);
+    }
+    
+    #playerDisplay,#computerDisplay{
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    
+    #resultDisplay{
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    
+    .greentext,#playerscoredisplay{
+        color: green;
+    }
+    .redtext,#computerscoredisplay{
+        color: red;
+    }
+    
+    .scoreDisplay{
+        font-size: 26px;
+    }
+}
+
+
+@media only screen and (min-width:400px){
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: hsla(0, 0%, 85%, 0.9);
+    }
+    
+    #maincontainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 100vh;
+        width: 100%;
+        border: 2px solid hsla(0, 0%, 0%, 0.7);
+        border-radius: 5px;
+        background-color: white;
+        box-shadow: 0px 0px 3px black;
+    }
+    
+    h1{
+        font-size: 32px;
+    }
+    
+    .choices{
+        margin-bottom: 40px;
+    }
+    
+    .choices button{
+        font-size: 42px;
+        width: 80px;
+        height: 80px;
+        margin: 0px 10px;
+        cursor: pointer;
+        border: none;
+        border-radius: 40px;
+        background-color: lightblue; 
+    }
+    
+    .choices button:hover{
+        background-color: hsl(195, 53%, 69%);
+        transition: 0.5s ease;
+    }
+    
+    .choices button:active{
+        background-color: hsl(195, 53%, 59%);
+    }
+    
+    #playerDisplay,#computerDisplay{
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    
+    #resultDisplay{
+        font-size: 42px;
+        margin-bottom: 10px;
+    }
+    
+    .greentext,#playerscoredisplay{
+        color: green;
+    }
+    .redtext,#computerscoredisplay{
+        color: red;
+    }
+    
+    .scoreDisplay{
+        font-size: 32px;
+    }
+}
+
+
+@media only screen and (min-width:1200px){
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: hsla(0, 0%, 85%, 0.9);
+    }
+    
+    #maincontainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 96vh;
+        width: 100%;
+        border: 2px solid hsla(0, 0%, 0%, 0.7);
+        border-radius: 5px;
+        background-color: white;
+        box-shadow: 0px 0px 3px black;
+    }
+    
+    h1{
+        font-size: 3rem;
+    }
+    
+    .choices{
+        margin-bottom: 40px;
+    }
+    
+    .choices button{
+        font-size: 4rem;
+        width: 120px;
+        height: 120px;
+        margin: 0px 10px;
+        cursor: pointer;
+        border: none;
+        border-radius: 60px;
+        background-color: lightblue; 
+    }
+    
+    .choices button:hover{
+        background-color: hsl(195, 53%, 69%);
+        transition: 0.5s ease;
+    }
+    
+    .choices button:active{
+        background-color: hsl(195, 53%, 59%);
+    }
+    
+    #playerDisplay,#computerDisplay{
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    
+    #resultDisplay{
+        font-size: 4rem;
+        margin-bottom: 10px;
+    }
+    
+    .greentext,#playerscoredisplay{
+        color: green;
+    }
+    .redtext,#computerscoredisplay{
+        color: red;
+    }
+    
+    .scoreDisplay{
+        font-size: 2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
